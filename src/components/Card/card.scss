@@ -1,0 +1,27 @@
+.card {
+    width: calc(100% / 7);
+    height: 550px;
+    border: 1px solid black;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+
+    &--wrapper {
+        width: 100%;
+        height: 300px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    p {
+        line-height: 1.5rem;
+        max-height: 150px;
+        overflow: hidden;
+        background-color: salmon;
+    }
+}

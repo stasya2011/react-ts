@@ -1,0 +1,16 @@
+header {
+    font-size: 1.5rem;
+    
+    & > ul {
+        padding: 1rem;
+        display: flex;
+        background-color: rgba(224, 195, 192, 0.719);
+        li {
+            list-style: none;            
+            margin-right: 1rem;
+            & a {
+                text-decoration: none;
+            }
+        }
+    }
+}
